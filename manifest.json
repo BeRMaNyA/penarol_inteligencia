@@ -1,0 +1,14 @@
+{
+   "name": "Peñarol Inteligencia",
+   "version": "1.0",
+   "description": "Premium en ovacion, elpais y el observador",
+   "content_scripts": [
+     {
+       "matches": ["*://*.elobservador.com.uy/*", "*://*.elpais.com.uy/*", "https://*.ovaciondigital.com.uy/*"],
+       "js": ["extension.js"],
+       "run_at": "document_end"
+     }
+   ],
+   "icons": { "16": "images/icon16.png", "32": "images/icon32.png", "48": "images/icon48.png", "128": "images/icon128.png" },
+   "manifest_version": 2
+}
