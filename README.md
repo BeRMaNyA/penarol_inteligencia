@@ -17,3 +17,5 @@ y también oculta la publicidad :D
 La extensión es super simple... la idea es compartirla con algunos amigos... please no publicarla 🙏🙏
 
 **[Demo](https://vimeo.com/309679684)**
+
+**Inspirado por [https://www.youtube.com/watch?v=8RdswF5bbSA](https://www.youtube.com/watch?v=8RdswF5bbSA)**
