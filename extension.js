@@ -3,7 +3,6 @@
 
   function run() {
     app == 'elobservador' ? setInterval(elobservador, 1000) : elpais()
-
     setTimeout(_cap, 500)
   }
   
@@ -15,7 +14,7 @@
       _owned()
     }
 
-    setInterval(_adBlocker, 1000)
+    _adBlocker()
   }
 
   function elpais() {
@@ -25,9 +24,8 @@
       statusUser.logged_in = true
       statusUser.user.is_suscriber = true
     `
-
     document.body.appendChild(script)
-    setTimeout(_adBlocker, 1000)
+    setTimeout(_adBlocker, 500)
     _owned()
   }
 
@@ -37,13 +35,13 @@
       '.btn--reportar-error', '.content-module-free-html', '.widgetgoogle'
     ]
 
-    selectors.forEach(_removeAll)
+    selectors.forEach(_removeElements)
   }
 
-  function _removeAll(selector) {
-    document.querySelectorAll(selector).forEach((el) => {
+  function _removeElements(selector) {
+    document.querySelectorAll(selector).forEach((el) =>
       el.parentNode.removeChild(el)
-    })
+    )
   }
 
   function _cap() {

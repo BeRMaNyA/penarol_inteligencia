@@ -6,6 +6,7 @@ y también oculta la publicidad :D
 ### Como se usa?
 
 * [Descargar extension](https://github.com/BeRMaNyA/penarol_inteligencia/archive/1.0.zip)
+* Descomprimir el zip
 * Abrir Google Chrome y luego ir a `chrome://extensions`
 * Habilitar **Modo de desarrollador**
 * Click en **Cargar extensión descomprimida** y seleccionar el directorio
