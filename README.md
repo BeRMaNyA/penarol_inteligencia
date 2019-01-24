@@ -1,9 +1,9 @@
 # Peñarol Inteligencia
 
-Es una extension de google chrome que permite ver las noticias premium de elpais, ovacion, referi y el observador  
+Es una extension de google chrome que permite ver las noticias premium de referi y el observador  
 y también oculta la publicidad :D
 
-### Como se usa?
+### Cómo se usa?
 
 * [Descargar extension](https://github.com/BeRMaNyA/penarol_inteligencia/archive/1.0.zip)
 * Descomprimir el zip
@@ -14,8 +14,9 @@ y también oculta la publicidad :D
 
 ----
 
-La extensión es super simple... la idea es compartirla con algunos amigos... please no publicarla 🙏🙏
+Actualmente la extensión no funciona para [elpais.com.uy](https://elpais.com.uy) pero en los proximos días volverá a funcionar.
 
-**[Demo](https://vimeo.com/309679684)**
+**Por qué?**
 
-**Inspirado por [https://www.youtube.com/watch?v=8RdswF5bbSA](https://www.youtube.com/watch?v=8RdswF5bbSA)**
+Por notas como [esta](http://historico.ovaciondigital.com.uy/12/04/25/jmastandrea.asp) entre tantas otras,
+esta extensión va a ser publicada.
