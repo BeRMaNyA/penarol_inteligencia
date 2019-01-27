@@ -25,8 +25,17 @@
     script.textContent = `
       statusUser.logged_in = true
       statusUser.user.is_suscriber = true
+
+      $(document).ready(function() {
+        if ($('.content-modules').length) {
+          const url = 'https://cors.io/?http://192.81.212.22:8080/${window.location.href}'
+
+          $('.content-modules').load(url)
+        }
+      });
     `
     document.body.appendChild(script)
+
     setTimeout(_adBlocker, 500)
     _owned()
   }
