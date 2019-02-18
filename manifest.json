@@ -4,7 +4,7 @@
    "description": "Premium en ovacion, elpais y el observador",
    "content_scripts": [
      {
-       "matches": ["*://*.elobservador.com.uy/*", "*://*.elpais.com.uy/*", "https://*.ovaciondigital.com.uy/*"],
+       "matches": ["*://*.elobservador.com.uy/*", "*://*.elpais.com.uy/*", "https://*.ovaciondigital.com.uy/*",  "*://*.tvshow.com.uy/*"],
        "js": ["extension.js"],
        "run_at": "document_end"
      }
